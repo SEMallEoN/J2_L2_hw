@@ -4,7 +4,7 @@ public class Java2_Lesson2_hw {
 
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
         String[][] array44 = {{"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}};
-        String[][] array22 = {{"1", "2", "3", "4", "5"}, {"1", "2", "3", "4", "5", "6", "7"}};
+        String[][] array22 = {{"1", "2"}, {"1", "2"}};
         getArray(array44);
         getArray(array22);
     }
