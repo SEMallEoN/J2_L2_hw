@@ -4,9 +4,9 @@ public class Java2_Lesson2_hw {
 
     public static void main(String[] args) throws MyArraySizeException, MyArrayDataException {
         String[][] array44 = {{"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}, {"1", "2", "3", "4"}};
-        String[][] array57 = {{"1", "e", "3"}, {"1", "2", "3"}};
+        String[][] array22 = {{"1", "2", "3", "4", "5"}, {"1", "2", "3", "4", "5", "6", "7"}};
         getArray(array44);
-        getArray(array57);
+        getArray(array22);
     }
 
     public static void getArray(String[][] array) throws MyArraySizeException, MyArrayDataException {
